@@ -1,3 +1,5 @@
+.. _sequence_data_formats:
+
 Viral Sequence Data Formats
 ===========================
 
