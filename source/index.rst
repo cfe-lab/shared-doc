@@ -7,7 +7,7 @@ Welcome to the SHARED Project's documentation!
    :caption: Contents:
 
    submission/index
-   detailed_schema
+   detailed_schema/index
 
 
 

@@ -1,4 +1,0 @@
-Detailed Database Schema
-========================
-
-
