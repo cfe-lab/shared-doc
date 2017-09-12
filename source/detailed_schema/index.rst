@@ -1,6 +1,11 @@
 Detailed Database Schema
 ========================
 
-- data types
-- data dictionary
+.. toctree::
+   :maxdepth: 1
+   :caption: Sections:
+
+   data_types
+   data_dictionary
+
 - entity relationships

@@ -1,2 +1,7 @@
 venv/
 build/
+
+source/img
+
+source/**/*.svg
+source/**/*.inc
