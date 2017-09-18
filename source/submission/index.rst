@@ -27,8 +27,8 @@ parties.
 Data should be formatted according to one of the **data submission
 schemes** documented in this section. It specifies how clinical,
 demographic, and viral sequence data should be formatted so that the
-SHARED project can merge data **efficiently and consistently**. For
-cases where each study participant only has a single record, the
+SHARED project can merge data efficiently and consistently. For
+cases where each study participant only has a **single record**, the
 :ref:`flat_scheme` is the simpler way to format your data. For more
 detailed studies (e.g. where participants have multiple follow up
 results), or if your data is already in a database system, the
@@ -67,7 +67,7 @@ anyone will have data for every column, so if you don't have data for
 a particular column, you should omit it.
 
 
-.. table::
+.. table:: Submission Data Types
 
    ======   ===========
    Kind     Description
@@ -90,4 +90,7 @@ a particular column, you should omit it.
 
 Viral sequence data should be submitted as separate files in a
 sub-directory called ``sequences``. Details of the expected sequence
-formats are available in :ref:`sequence_data_formats`.
+formats are available in :ref:`sequence_data_formats`. The file names
+in the examples are just examples; you can use whatever naming
+convention works for you, as long as the filenames in your CSV files
+match the ones the ``sequences/`` directory.
