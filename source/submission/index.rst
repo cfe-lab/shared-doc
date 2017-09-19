@@ -7,9 +7,13 @@ Data Submission
 
    sequence_data_formats
    coding_tables
+   treatment_regimens
    flat_scheme
    multi_table_scheme
 
+
+Data Format
+-----------
 
 You can send data to the SHARED database for integration using the
 `SHARED data submission page`_. You'll be sent a **secure, unique
@@ -52,11 +56,14 @@ The whole data submission process is:
 
 SHARED collects demographic, clinical, and viral sequence data. 
 
-
 Each column of your data table should have a **header** with the
 column name. The order of the columns doesn’t matter. The case of the
 filenames and header names also doesn’t matter (they will all be
 converted to lower-case before they’re checked and loaded).
+
+
+Data Types
+----------
 
 Each field in a submitted data file will be either a number, a date,
 or a string. Fields that are **required** are marked with a bullet (•)
