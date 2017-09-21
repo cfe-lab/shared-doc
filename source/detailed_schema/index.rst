@@ -8,4 +8,5 @@ Detailed Database Schema
    data_types
    data_dictionary
 
-- entity relationships
+..
+   TODO(nknight): entity relationships

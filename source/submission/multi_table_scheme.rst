@@ -55,6 +55,8 @@ The expected contents of each file are described below.
    :file: schemes/treatment.csv
    :widths: auto
 
+.. _multi_table_scheme_isolates:
+
 .. csv-table:: ``isolates.csv``
    :header: Name,Type,Required,Description,Possible Values
    :file: schemes/isolates.csv
