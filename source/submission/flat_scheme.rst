@@ -10,6 +10,7 @@ fields are marked with a bullet (•). We don't expect everyone to have
 data for each field; fields that don't apply to your study should be
 omitted.
 
-
-..
-   TODO(nknight): flat-scheme fields
+.. csv-table::
+   :header: Name,Type,Required,Description,Possible Values
+   :file: schemes/flat.csv
+   :widths: auto

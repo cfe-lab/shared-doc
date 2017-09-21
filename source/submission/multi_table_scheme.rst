@@ -30,6 +30,36 @@ consist of multiple CSV or Excel files,
 
 The expected contents of each file are described below.
 
+.. csv-table:: ``participants.csv``
+   :header: Name,Type,Required,Description,Possible Values
+   :file: schemes/participants.csv
+   :widths: auto
+
+.. csv-table:: ``behavior.csv``
+   :header: Name,Type,Required,Description,Possible Values
+   :file: schemes/behavior.csv
+   :widths: auto
+
+.. csv-table:: ``clinical.csv``
+   :header: Name,Type,Required,Description,Possible Values
+   :file: schemes/clinical.csv
+   :widths: auto
+
+.. csv-table:: ``ltfu.csv``
+   :header: Name,Type,Required,Description,Possible Values
+   :file: schemes/ltfu.csv
+   :widths: auto
+
+.. csv-table:: ``treatment.csv``
+   :header: Name,Type,Required,Description,Possible Values
+   :file: schemes/treatment.csv
+   :widths: auto
+
+.. csv-table:: ``isolates.csv``
+   :header: Name,Type,Required,Description,Possible Values
+   :file: schemes/isolates.csv
+   :widths: auto
+
 
 Anonymous IDs
 -------------

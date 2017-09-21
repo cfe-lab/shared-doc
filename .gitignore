@@ -3,5 +3,7 @@ build/
 
 source/img
 
+source/submission/**/*.csv
+
 source/**/*.svg
 source/**/*.inc

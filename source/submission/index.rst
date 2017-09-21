@@ -1,3 +1,5 @@
+.. _data_submission:
+
 Data Submission
 ===============
 
@@ -5,12 +7,11 @@ Data Submission
    :maxdepth: 1
    :caption: Sections:
 
-   sequence_data_formats
-   coding_tables
-   treatment_regimens
    flat_scheme
    multi_table_scheme
-
+   coding_tables
+   treatment_regimens
+   sequence_data_formats
 
 Data Format
 -----------
@@ -40,7 +41,8 @@ results), or if your data is already in a database system, the
 
 Examples of properly formatted data in both schemes is available.
 
-.. todo:: Link to example directories
+..
+    TODO(nknight): Link to example directories
 
 As always, if you have questions about the data schemes or need help
 formatting your data, contact the SHARED project.
