@@ -1,9 +1,9 @@
-venv/
 build/
+scripts/
+venv/
 
 source/img
 
 source/submission/**/*.csv
-
 source/**/*.svg
 source/**/*.inc
