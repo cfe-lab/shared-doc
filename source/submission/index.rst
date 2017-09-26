@@ -94,6 +94,10 @@ a particular column, you should omit it.
             automatically. E.g: 1a, sufosbuvir, “The truth, the
             whole truth, and nothing but the truth.”.
 
+   bool     True, False, or None (for unknown). True/False can be
+            written as "true"/"false", "yes"/"no", "t"/"f", or
+            "y"/"n". None can be written as "none" or "null", or
+            left blank. All values are case-insensitive.
    ======   ===========
 
 
