@@ -23,8 +23,7 @@ data. This mechanism ensures that the data transfer is confidential,
 secure, and protected against interference from malicious third
 parties.
 
-.. _SHARED data submission page:
-    https://shared.cfenet.ubc.ca/datasubmission/
+.. _SHARED data submission page: https://shared.cfenet.ubc.ca/datasubmission/
 
 .. warning:: Don't send data to SHARED via email; we can't guarantee
              the confidentiality of data submitted by email.
@@ -39,10 +38,10 @@ detailed studies (e.g. where participants have multiple follow up
 results), or if your data is already in a database system, the
 :ref:`multi_table_scheme` may be more appropriate.
 
-Examples of properly formatted data in both schemes is available.
+Examples of properly formatted data in both schemes are `available on
+GitHub`_.
 
-..
-    TODO(nknight): Link to example directories
+.. _available on GitHub: https://github.com/neganp/shared_submission_format_examples
 
 As always, if you have questions about the data schemes or need help
 formatting your data, contact the SHARED project.
