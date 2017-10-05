@@ -106,3 +106,25 @@ formats are available in :ref:`sequence_data_formats`. The file names
 in the examples are just examples; you can use whatever naming
 convention works for you, as long as the filenames in your CSV files
 match the ones the ``sequences/`` directory.
+
+
+
+Anonymous IDs
+-------------
+
+Each participant should be given a random alpha-numeric ID (in the
+``id`` column of the ``participants`` table), which is then used to
+tag other records that pertain to that participant. The exact format
+of this field isn't important as long as the key for each participant
+is unique, and the keys in other files **match**.
+
+Note that keys are compared as **text**, so ``01`` ≠ ``1`` and ``1`` ≠
+``1.0``.
+
+Examples of valid keys:
+
+ - #001
+ - 07-172f9
+ - tk_421
+ - A7eX1Wx
+

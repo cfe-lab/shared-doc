@@ -62,15 +62,3 @@ The expected contents of each file are described below.
    :file: schemes/isolates.csv
    :widths: auto
 
-
-Anonymous IDs
--------------
-
-Each participant should be given a random alpha-numeric ID (in the
-``id`` column of the ``participants`` table), which is then used to
-tag other records that pertain to that participant. The exact format
-of this field isn't important as long as the key for each participant
-is unique and the keys in other files **match**.
-
-Note that keys are compared as **text**, so ``01`` ≠ ``1`` and ``1`` ≠
-``1.0``.
