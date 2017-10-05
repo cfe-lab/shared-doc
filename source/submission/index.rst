@@ -16,12 +16,29 @@ Data Submission
 Data Format
 -----------
 
-You can send data to the SHARED database for integration using the
-`SHARED data submission page`_. You'll be sent a **secure, unique
-link** which you can use to submit a **.ZIP file** containing your
-data. This mechanism ensures that the data transfer is confidential,
-secure, and protected against interference from malicious third
-parties.
+The whole data submission process is:
+
+1. Format your data tables using either the :ref:`flat_scheme` or the
+   :ref:`multi_table_scheme`.
+2. Create a .ZIP file with your tables and sequence data.
+3. Get a unique data submission link.
+4. Follow your link to the secure data submission page and use it to
+   submit your data.
+
+SHARED collects demographic, clinical, and viral sequence data.
+
+Each column in your data tables will have a **header** with the column
+name. The order of the columns doesn’t matter. The case of the
+filenames and header names also doesn’t matter (they will all be
+converted to lower-case before they’re checked and loaded).
+
+You can send data files to the SHARED database for integration using
+the `SHARED data submission page`_. Once your data sharing agreement
+has been arranged you'll be sent a **secure, unique link** which you
+can use to submit a **.ZIP file** (or a TAR file, etc.) containing
+your data. This mechanism ensures that the data transfer is
+confidential, secure, and protected against interference from
+malicious third parties.
 
 .. _SHARED data submission page: https://shared.cfenet.ubc.ca/datasubmission/
 
@@ -46,21 +63,6 @@ GitHub`_.
 As always, if you have questions about the data schemes or need help
 formatting your data, contact the SHARED project.
 
-The whole data submission process is:
-
-1. Format your data using either the :ref:`flat_scheme` or the
-   :ref:`multi_table_scheme`.
-2. Create a .ZIP file with your tables and sequence data.
-3. Get a unique data submission link.
-4. Follow your link to the secure data submission page and use it to
-   submit your data.
-
-SHARED collects demographic, clinical, and viral sequence data. 
-
-Each column of your data table should have a **header** with the
-column name. The order of the columns doesn’t matter. The case of the
-filenames and header names also doesn’t matter (they will all be
-converted to lower-case before they’re checked and loaded).
 
 
 Data Types
@@ -127,4 +129,3 @@ Examples of valid keys:
  - 07-172f9
  - tk_421
  - A7eX1Wx
-
