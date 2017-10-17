@@ -32,9 +32,10 @@ table of standard regimens, you can write out the regimen in detail,
 as in the table above. The exact format is:
 
 - The amount of each DAA in the treatment joined by a ``+``
-  symbol.
-- The frequency of the perscriptiong (e.g. ``QD`` for daily, ``BID``
-  for twice daily, etc.)
+  symbol. For clarity, you *may* put parenthesis around a list of DAAs.
+  E.g: ``(100mg SOF + 200mg LDV)``.
+- The frequency of the perscriptiong. E.g: ``QD`` for daily, ``BID``
+  for twice daily, etc.
 - Combine multiple drugs with different frequencies using an
   ``&`` symbol.
 
