@@ -1,10 +1,9 @@
 
-Welcome to the SHARED Project's documentation!
-==============================================
+Contents
+========
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    submission/index
    detailed_schema/index

@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'SHARED'
+project = 'SHARED Database Manual'
 copyright = '2017, Nathaniel Knight'
 author = 'Nathaniel Knight'
 
