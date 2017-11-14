@@ -48,7 +48,7 @@ Examples:
     Perscription,Notation
     60mg of Daclatasvir once a day for 12 weeks,``60mg DAC QD 12 weeks``
     90mg of Ledipasvir and 400mg of Sofosbuvir once a day for 12 weeks,``90mg LDV + 400mg SOF QD 12 weeks``
-    150 mg of Simeprevir for 12 weeks and 0.180mg of Peg-A and 500mg Ribavirin twice a day for 24 weeks, 150mg SIM QD 12 weeks & 0.180mg PEG QWK + 500Rmg BID 24 weeks
+    150 mg of Simeprevir for 12 weeks and 0.180mg of Peg-A and 500mg Ribavirin twice a day for 24 weeks, ``150mg SIM QD 12 weeks & 0.180mg PEG QWK + 500Rmg BID 24 weeks``
 
 The complete list of compounds and frequencies is listed below. For
 more detailed information, see the `regimens submodule`_ of the
