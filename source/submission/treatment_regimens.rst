@@ -54,7 +54,7 @@ The complete list of compounds and frequencies is listed below. For
 more detailed information, see the `regimens submodule`_ of the
 ``shared_schema`` package.
 
-.. _regimens submodule: https://github.com/neganp/shared-schema/tree/master/shared_schema/regimens
+.. _regimens submodule: https://github.com/hcv-shared/shared-schema/tree/master/shared_schema/regimens
 
 
 .. csv-table:: Compounds included in treatment regimens

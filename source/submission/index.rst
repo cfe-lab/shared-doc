@@ -58,7 +58,7 @@ results), or if your data is already in a database system, the
 Examples of properly formatted data in both schemes are `available on
 GitHub`_.
 
-.. _available on GitHub: https://github.com/neganp/shared_submission_format_examples
+.. _available on GitHub: https://github.com/hcv-shared/shared_submission_format_examples
 
 As always, if you have questions about the data schemes or need help
 formatting your data, contact the SHARED project.
