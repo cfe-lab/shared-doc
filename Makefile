@@ -22,7 +22,7 @@ help:
 # Generate include files from shared_schema
 INCLUDE_FILES:
 	python -m shared_schema export rst > source/detailed_schema/generated_data_dictionary.inc || exit 1
-	python -m shared_schema sub-scm -y flat source/submission/schemes
+	python -m shared_schema sub-scm -y simple source/submission/schemes
 	python -m shared_schema sub-scm -y multi-table source/submission/schemes
 	python -m shared_schema regimens regimens > source/submission/regimens.csv
 	python -m shared_schema regimens compounds > source/submission/compounds.csv

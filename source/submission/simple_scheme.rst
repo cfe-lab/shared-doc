@@ -1,7 +1,7 @@
-.. _flat_scheme:
+.. _simple_scheme:
 
-Flat Submission Data Scheme
----------------------------
+Simple Submission Data Scheme
+-----------------------------
 
 This scheme can be used if each participant has only a single
 clinical, behavior, and treatment record. The submission will be a
@@ -12,5 +12,5 @@ omitted.
 
 .. csv-table::
    :header: Name,Type,Required,Description,Possible Values
-   :file: schemes/flat.csv
+   :file: schemes/simple.csv
    :widths: auto

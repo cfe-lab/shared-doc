@@ -8,7 +8,7 @@ Sanger Sequencing Data Format
 
 Sanger sequence data should be provided as FASTA files, with the
 cutoff used for concensues noted in the associated data table (see
-:ref:`flat_scheme` or the :ref:`multi_table_scheme_isolates` file in
+:ref:`simple_scheme` or the :ref:`multi_table_scheme_isolates` file in
 the multi-table scheme).
 
 

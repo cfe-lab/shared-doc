@@ -7,7 +7,7 @@ Data Submission
    :maxdepth: 1
    :caption: Sections:
 
-   flat_scheme
+   simple_scheme
    multi_table_scheme
    coding_tables
    treatment_regimens
@@ -18,7 +18,7 @@ Data Format
 
 The whole data submission process is:
 
-1. Format your data tables using either the :ref:`flat_scheme` or the
+1. Format your data tables using either the :ref:`simple_scheme` or the
    :ref:`multi_table_scheme`.
 2. Create a .ZIP file with your tables and sequence data.
 3. Get a unique data submission link.
@@ -50,7 +50,7 @@ schemes** documented in this section. It specifies how clinical,
 demographic, and viral sequence data should be formatted so that the
 SHARED project can merge data efficiently and consistently. For
 cases where each study participant only has a **single record**, the
-:ref:`flat_scheme` is the simpler way to format your data. For more
+:ref:`simple_scheme` is the simpler way to format your data. For more
 detailed studies (e.g. where participants have multiple follow up
 results), or if your data is already in a database system, the
 :ref:`multi_table_scheme` may be more appropriate.
