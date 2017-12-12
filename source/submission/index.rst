@@ -69,12 +69,12 @@ Data Types
 ----------
 
 Each field in a submitted data file will be either a number, a date,
-or a string. Fields that are **required** are marked with a bullet (•)
-in the data scheme descriptions. Other fields can be left out,
-indicating that the data wasn't collected or is unknown. Missing
-fields will be set to ``NULL`` in the database. We don't expect that
-anyone will have data for every column, so if you don't have data for
-a particular column, you should omit it.
+or a string. Fields that are **required** are marked in the data
+scheme descriptions. Other fields can be left out, indicating that the
+data wasn't collected or is unknown. Missing fields will be set to
+``NULL`` in the database. We don't expect that anyone will have data
+for every column, so if you don't have data for a particular column,
+you should omit it.
 
 
 .. table:: Submission Data Types

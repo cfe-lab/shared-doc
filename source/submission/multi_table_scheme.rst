@@ -61,4 +61,3 @@ The expected contents of each file are described below.
    :header: Name,Type,Required,Description,Possible Values
    :file: schemes/isolates.csv
    :widths: auto
-
