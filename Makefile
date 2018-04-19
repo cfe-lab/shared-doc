@@ -1,38 +1,27 @@
-# Minimal makefile for Sphinx documentation
-#
+# Build the SHARED Documentation
 
-# You can set these variables from the command line.
-SPHINXOPTS    =
-SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = "SHARED Database Manual"
-SOURCEDIR     = source
-BUILDDIR      = build
+# Deps
+RST_SOURCE=$(shell find ./source -name '*.rst')
 
-# Find dependencies
+html: $(RST_SOURCE) GENERATED_FILES
+	python -m sphinx -a ./source ./build
 
-# Put it first so that "make" without argument is like "make help".
-help:
-	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+serve: html
+	(cd build ; python -m http.server 3000)
+	!echo "Serving on localhost:3000"
 
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-%: Makefile $(INCLUDE_FILES)
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+deploy: html
+	rsync -avr build/html/ nknight@shared.cfenet.ubc.ca:manual/ --delete-before
+	ssh nknight@shared.cfenet.ubc.ca 'cp -r manual/ /var/www/html/static/'
 
-# Generate include files from shared_schema
-INCLUDE_FILES:
-	python -m shared_schema export rst > source/detailed_schema/generated_data_dictionary.inc || exit 1
+GENERATED_FILES:
+	python -m shared_schema export rst > source/detailed_schema/generated_data_dictionary.inc
 	python -m shared_schema sub-scm -y simple source/submission/schemes
 	python -m shared_schema sub-scm -y multi-table source/submission/schemes
 	python -m shared_schema regimens regimens > source/submission/regimens.csv
 	python -m shared_schema regimens compounds > source/submission/compounds.csv
 	python -m shared_schema regimens frequencies > source/submission/frequencies.csv
+	mkdir -p img/
+	python -m shared_schema export dot | unflatten | dot -Tsvg > img/entity_relations.svg
 
-# Figures
-source/img/entity_relations.svg:
-	mkdir -p source/img/
-	python -m shared_schema export dot | unflatten | dot -Tsvg > source/img/entity_relations.svg
-
-.PHONY: help Makefile INCLUDE_FILES
-
-all: INCLUDE_FILES
+.PHONY: Makefile GENERATED_FILES serve
