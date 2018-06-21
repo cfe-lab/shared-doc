@@ -11,5 +11,5 @@ to your study should be omitted.
 
 .. csv-table::
    :header: Name,Type,Required,Description,Possible Values
-   :file: schemes/simple.csv
+   :file: ./simple.csv
    :widths: auto

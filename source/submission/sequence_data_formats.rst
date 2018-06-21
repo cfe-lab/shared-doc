@@ -8,11 +8,10 @@ Sanger Sequencing Data Format
 
 Sanger sequence data should be provided as FASTA files, with the
 cutoff used for concensues noted in the associated data table (see
-:ref:`simple_scheme` or the :ref:`multi_table_scheme_isolates` file in
-the multi-table scheme).
+:ref:`simple_scheme` for details).
 
 
 Next-Generation Sequencing Data Format
 --------------------------------------
 
-.. note:: Coming soon
+.. note:: This hasn't been decided yet, and we haven't merged any NGS data.
