@@ -20,6 +20,7 @@ GENERATED_FILES:
 	python -m shared_schema regimens regimens > source/submission/regimens.csv
 	python -m shared_schema regimens compounds > source/submission/compounds.csv
 	python -m shared_schema regimens frequencies > source/submission/frequencies.csv
+	python -m shared_schema refseqs > source/detailed_schema/generated_reference_sequences_table.inc
 	mkdir -p source/img/
 	python -m shared_schema export dot | unflatten | dot -Tsvg > source/img/entity_relations.svg
 

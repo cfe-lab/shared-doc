@@ -7,6 +7,7 @@ Detailed Database Schema
 
    data_types
    data_dictionary
+   reference_sequences
 
 ..
    TODO(nknight): entity relationships
