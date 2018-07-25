@@ -1,5 +1,2 @@
 Sphinx >=1.6.3,<2.0
-
-# clone the repo and fulfill this by activating the docs' virtualenv
-# and then running `pip install -e $(path to repo)`
-shared_schema
+git+https://github.com/hcv-shared/shared-schema@master
