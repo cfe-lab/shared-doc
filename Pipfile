@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sphinx = ">=1.6.3,<2.0"
+
+[dev-packages]
+shared-schema = {git = "https://github.com/hcv-shared/shared-schema", version = ">=0.2"}
+
+[requires]
+python_version = "3.6"
